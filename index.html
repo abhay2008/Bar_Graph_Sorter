@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Sorting</h1>
+    <p>
+      # of elements: <input id="elts" value="100" /><br>
+      <button id="shuffle">Shuffle</button>
+    </p>
+    <p>
+      Algorithm: <select id="algo">
+        <option>Quicksort</option>
+        <option>Merge Sort</option>
+        <option>Heap Sort</option>
+        <option>Insertion Sort</option>
+        <option>Selection Sort</option>
+        <option>Bubble Sort</option>
+        <option>Shell Sort</option>
+        <option>Radix Sort</option>
+      </select><br>
+      Framerate: <input id="fr" value="30" /><br>
+      <button id="sort">Sort</button>
+      <button id="stop">Stop</button>
+    </p>
+    <div id="container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
